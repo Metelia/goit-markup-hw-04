@@ -273,14 +273,12 @@ color: #434455;
 .team {
 background-color: #F4F4FD;
 padding: 120px 0;
-box-shadow: 
-  0px 1px 6px rgba(46, 47, 66, 0.08),   /* велика розмита тінь */
-  0px 1px 1px rgba(46, 47, 66, 0.16),   /* коротка темніша тінь */
-  0px 2px 1px rgba(46, 47, 66, 0.08);   /* ще одна для глибини */}
-
+}
 .team-list{
   display: flex; 
   gap: 24px; 
+  box-shadow: 
+  0px 1px 6px rgba(46, 47, 66, 0.08),0px 2px 1px rgba(46, 47, 66, 0.08);   
 }
 
 .team-title {
