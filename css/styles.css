@@ -337,6 +337,8 @@ text-align: center;
 .social-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms ease-in-out;
+
 }
 
 .social-link {
@@ -347,7 +349,6 @@ text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms ease-in-out;
 }
 
 .social-link:hover,
