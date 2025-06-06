@@ -167,6 +167,7 @@ img {
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover; 
+  margin:0;
   }
 
 .main-title {
@@ -312,6 +313,7 @@ text-transform: capitalize;
 color: #2e2f42;
 text-align: center; 
 margin-bottom: 8px;
+
 }
 
 .team-description {
@@ -320,10 +322,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center; 
+margin-bottom: 8px;
 }
 
 .explanation{
   padding: 32px 0;
+  
 }
 
 .social-list {
@@ -338,6 +342,7 @@ text-align: center;
   width: 40px;
   height: 40px;
 
+
 }
 
 .social-link {
@@ -346,10 +351,11 @@ text-align: center;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
+
   align-items: center;
   justify-content: center;
-  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
- }
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
 .social-link:hover,
 .social-link:focus {
@@ -484,7 +490,7 @@ letter-spacing: 0.02em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 120px;
+
 }
 
 .footer-left-wrapper {
